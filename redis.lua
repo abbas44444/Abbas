@@ -216,8 +216,11 @@ local line, err = client.network.socket:receive(len)
 if not err then return line else
 local TokenBot = io.open('./File_Libs/Token.txt', "r"):read('*a')
 print("\27[34m"..[[
-
-راقي 🥰
+ ____  ______ _  __
+| __ )| |  / \  / ___| |/ /
+|  _ \| | / _ \| |   | ' / 
+| |_) | |___ / ___ \ |___| . \ 
+|____/|_____/_/   \_\____|_|\_\
 
 ]].."\27[m")
 sudos = dofile("sudo.lua")
